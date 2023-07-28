@@ -1,6 +1,6 @@
 // Create event listener to enter items below
 $("#enter").on("click", function(){
-var task = $("#todoitem").val();
+var task = $("#todoItem").val();
 $("#todoList").append("<div class='task'>" + task + "<div class='x fas fa-time'></div></div>");
 });
 
